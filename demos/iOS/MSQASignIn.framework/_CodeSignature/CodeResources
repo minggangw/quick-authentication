@@ -4,25 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/MSQAAccountData.h</key>
+		<key>Headers/MSQAAccountInfo.h</key>
 		<data>
-		G0SIX3jZhkKGkHlxy6kUmZRW2EY=
+		pgfA/p+9wp2dz59dhl+/2enRdyg=
 		</data>
 		<key>Headers/MSQAConfiguration.h</key>
 		<data>
 		F2ufQ8tvg//naErmfeFHsJbpSpE=
 		</data>
-		<key>Headers/MSQASignIn.h</key>
+		<key>Headers/MSQALogger.h</key>
 		<data>
-		o1oaOKYe5StcYH6pMdrJz51KO1s=
+		sTGo4wa5XpQAdCSQTa+ROWLMqJo=
 		</data>
 		<key>Headers/MSQASignInButton.h</key>
 		<data>
 		W00VuF1CPXWZjgGB8w/wIM3v6Ec=
 		</data>
+		<key>Headers/MSQASignInClient.h</key>
+		<data>
+		yE3kYuDGW9btMST2HqapZ38gz/g=
+		</data>
 		<key>Headers/MSQASilentTokenParameters.h</key>
 		<data>
 		x6ST6Tm9vUTHUHPkjGcgLblTY8o=
+		</data>
+		<key>Headers/MSQATokenResult.h</key>
+		<data>
+		i77w6E3gduNn0olgV1r7I+tgsKQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -64,25 +72,29 @@
 		<data>
 		KIvUUzufuFs5pd3Tjq8KKMEFgCg=
 		</data>
-		<key>Modules/module.modulemap</key>
+		<key>PrivateHeaders/MSQAAccountInfo_Private.h</key>
 		<data>
-		PYDKzlLy+nv1Bd13bDH+x6z6dTQ=
+		9EiH+2W33bV1fwaOKkJFgDg0ANo=
 		</data>
-		<key>PrivateHeaders/MSQAAccountData_Private.h</key>
+		<key>PrivateHeaders/MSQALogger_Private.h</key>
 		<data>
-		WmKgjGSdq/l+VlXdILxsFuR4x9k=
-		</data>
-		<key>PrivateHeaders/MSQALogger.h</key>
-		<data>
-		sTGo4wa5XpQAdCSQTa+ROWLMqJo=
+		DMmDEjF2x6idrqAMTvEspdbB6sA=
 		</data>
 		<key>PrivateHeaders/MSQASignIn_Private.h</key>
 		<data>
-		+sXgn8TvweLqUKvpRLm6x+ypoXc=
+		5i2iksgfsowdVPmSOFOq9+/aLwc=
+		</data>
+		<key>PrivateHeaders/MSQATelemetrySender.h</key>
+		<data>
+		42rQiEqGlN7ifwYH9e2iw2e7QY8=
+		</data>
+		<key>PrivateHeaders/MSQATokenResult_Private.h</key>
+		<data>
+		ulmI+BsuX7nG5vhu16YmIqhpuf0=
 		</data>
 		<key>PrivateHeaders/MSQAUserInfoFetcher.h</key>
 		<data>
-		caDkcsog9jyE1zfYLWVjGmbjWGg=
+		KfCo5YEahTh5IPS3jhYlbA3X+bw=
 		</data>
 		<key>SegoeUI-SemiBold.ttf</key>
 		<data>
@@ -91,11 +103,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MSQAAccountData.h</key>
+		<key>Headers/MSQAAccountInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			akglv/OW7BRW6RH0NfC9DxP588Nl+ygfeE4r/n5nCII=
+			oyqAN4fA5vLtToMJ7w0/0AY1RKYIZfskwiV0txVzV+w=
 			</data>
 		</dict>
 		<key>Headers/MSQAConfiguration.h</key>
@@ -105,11 +117,11 @@
 			FZOb01WSRX5Gi0/PQoNGypyVSMHhoLSJD07Ivs7eiM8=
 			</data>
 		</dict>
-		<key>Headers/MSQASignIn.h</key>
+		<key>Headers/MSQALogger.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QanOM0/aBfmXRzUbNASrcr515Cmzh5K4ZH8xJrI2QsQ=
+			k7kOSGj09szN1u+2815cq0gRWA7m0o91KcOb1Bmj6Oc=
 			</data>
 		</dict>
 		<key>Headers/MSQASignInButton.h</key>
@@ -119,11 +131,25 @@
 			S5H1AzYucw/MVAYzzu3pL3P/XzjGbMHHU0cZi7Mg41I=
 			</data>
 		</dict>
+		<key>Headers/MSQASignInClient.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mcE+phEKrac/s6YjaX8eQxqhqDWAis1QF/2Neqdbxvk=
+			</data>
+		</dict>
 		<key>Headers/MSQASilentTokenParameters.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			IvKrxLITCQnuu9GguerJxy85EvwJbRrJPoewBjzH1UA=
+			</data>
+		</dict>
+		<key>Headers/MSQATokenResult.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Q65za6/Zs0t2dZfWHhNnv2Mmzxk0nz0/Z0S354r5zk=
 			</data>
 		</dict>
 		<key>Microsoft-Brand-12.png</key>
@@ -189,39 +215,46 @@
 			jB9CED+Gp7J56m6jixSEMhcskndns5wM3CYGe+jC+ww=
 			</data>
 		</dict>
-		<key>Modules/module.modulemap</key>
+		<key>PrivateHeaders/MSQAAccountInfo_Private.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FHV73fBHOpp0VKo/0PrOUv2X6vgZOQZzacz6TBKq/KY=
+			outKym+JKEUA2SV/qZ1oZhK2HFNF4Lpti5KZ5LoMdYs=
 			</data>
 		</dict>
-		<key>PrivateHeaders/MSQAAccountData_Private.h</key>
+		<key>PrivateHeaders/MSQALogger_Private.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EbuHTph4i4DU9xMflXSyzx+nl+8kMJ4KQJa4fHsS6JA=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MSQALogger.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			k7kOSGj09szN1u+2815cq0gRWA7m0o91KcOb1Bmj6Oc=
+			k6rMlX4PB5F3vQSsBmhbvY/m7+9XWytiKIWY0UWpJjE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MSQASignIn_Private.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TDLF4TJKLuvZaUkKBXLRce1e82CK1ARSvcZ4Uixs6/A=
+			sFkfo8eR8auJJfbWvTg9eyu8W4Pb4+ieBuK9q3zHBpw=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MSQATelemetrySender.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Np5hHJS+ySABmSqxpZbtHGHK4B9pqAE5MZoAY3wKpYA=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MSQATokenResult_Private.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iqIKQtwBVHwx8eMdmOSRki73Yk2k1PysN7kh7QEAl70=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MSQAUserInfoFetcher.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MNdXS4CTIc1p0fIjcQmESmkgV/YO+ibvx97gd2pAQYE=
+			971Gd0GCBytOLAcF87gIRUcIyNxYHGXUMTQF5Y47QHU=
 			</data>
 		</dict>
 		<key>SegoeUI-SemiBold.ttf</key>

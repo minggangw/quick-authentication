@@ -25,13 +25,14 @@
 //
 //------------------------------------------------------------------------------
 
-#import <UIKit/UIKit.h>
+#import "MSQALogger.h"
 
-@interface SampleLoginViewController : UIViewController {
-}
+NS_ASSUME_NONNULL_BEGIN
 
-+ (instancetype)sharedViewController;
+@interface MSQALogger ()
 
-- (void)setMSQASignInClient:(MSQASignInClient *)msSignInClient;
+- (void)logWithLevel:(MSQALogLevel)level format:(NSString *)format, ...;
 
 @end
+
+NS_ASSUME_NONNULL_END
